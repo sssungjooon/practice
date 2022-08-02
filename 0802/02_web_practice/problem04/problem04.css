@@ -1,0 +1,54 @@
+/* 여기에 코드를 작성합니다. */
+/* 모든 스타일은 반드시 클래스 선택자를 이용해 정의합니다. 이후 HTML 태그에 해당 클래스를 적용합니다. */
+
+.chess-board {
+  width: 800px;
+  height: 800px;
+  /* box-sizing: border-box; */
+  border : 2px solid black;
+  /* margin: 0 auto; */
+}
+
+.chess-black {
+  background-color: black;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  /* position: relative; */
+  display: inline-block;
+  float: left;
+}
+
+.chess-white {
+  background-color: white;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  /* position: relative; */
+  display: inline-block;
+  float: left;
+}
+
+.chess-pawn {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chess-king {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chess-queen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chess-rook {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
